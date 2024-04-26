@@ -127,7 +127,7 @@
 ### 1. Install required packages
 ```bash
 sudo apt update && \
-sudo apt install curl git jq build-essential gcc unzip wget lz4 -y
+sudo apt install curl git jq build-essential gcc unzip wget lz4 libclang-dev cmake -y
 ```
 ### 2. Install Go
 ```bash
